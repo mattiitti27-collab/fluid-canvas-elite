@@ -2,12 +2,17 @@ import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 
 const reviews = [
-  { text: "Mi ha aiutato un sacco con analisi 1, prima ero completamente perso. Spiega in modo semplice e senza farti sentire stupido.", author: "Luca R.", stars: 5, accent: "primary" },
-  { text: "Fisica spiegata finalmente come si deve. Ho iniziato a capire davvero e non solo a imparare formule a caso.", author: "Giulia M.", stars: 5, accent: "secondary" },
-  { text: "Bravo in matematica, soprattutto per le superiori. A volte va veloce ma se chiedi ti rispiega.", author: "Marco T.", stars: 4, accent: "foreground" },
-  { text: "Mio figlio aveva grosse difficoltà in chimica e matematica, dopo qualche lezione si è sbloccato e ora va molto meglio.", author: "Sara B. (Mamma)", stars: 5, accent: "accent" },
-  { text: "Analisi 1 tosta ma spiegata bene. Non regala niente ma ti fa ragionare.", author: "Andrea F.", stars: 5, accent: "primary" },
-  { text: "Ripetizioni serie, niente tempo perso. Se non studi te lo dice ma ti aiuta davvero.", author: "Francesco L.", stars: 5, accent: "foreground" },
+  { text: "Ragazzo molto preparato, chiaro nelle spiegazioni, sempre disponibile e puntuale. Riesce a rendere comprensibili anche gli argomenti più difficili, adattando il metodo di studio alle esigenze dello studente. Grazie alla sua competenza, i miglioramenti si vedono già dopo poche lezioni. Assolutamente consigliato per chi ha bisogno di supporto nelle materie scientifiche al liceo.", author: "Majli Boscolo", stars: 5, accent: "primary" },
+  { text: "Ragazzo molto preparato. Insegna molto bene ed ha un buon metodo di studio. Molto gentile e disponibile e maturo.", author: "Ogert Olti Shkambi", stars: 5, accent: "secondary" },
+  { text: "Ragazzo molto preparato. Insegna un buon metodo di studio. Molto gentile e disponibile.", author: "Daniela Marangon", stars: 5, accent: "accent" },
+  { text: "Mio figlio sta frequentando queste lezioni di ripetizione da qualche tempo e l'esperienza è stata davvero molto positiva. Fin da subito si è trovato a suo agio, grazie a un ambiente accogliente e a un approccio didattico attento e personalizzato. Consiglio vivamente questo servizio a chiunque cerchi un supporto serio ed efficace per i propri figli.", author: "Tiziana Cavallari", stars: 5, accent: "foreground" },
+  { text: "Mio figlio sta prendendo lezioni da un po' di tempo e si trova davvero bene, riesce a capire la materia con facilità. È una persona davvero seria e mette il ragazzo a suo agio. Lo consiglio vivamente.", author: "Delfina Donato", stars: 5, accent: "primary" },
+  { text: "Mi sono trovato benissimo con Mattia, ragazzo super disponibile, in gamba e preparato. Mi ha seguito per recuperare le lacune che avevo in matematica, ottenendo risultati davvero positivi. Consigliatissimo!", author: "Luca Marcer", stars: 5, accent: "secondary" },
+  { text: "Mattia molto preparato e disponibile, mio figlio si è trovato bene, lo consiglio!", author: "Franco Marina", stars: 5, accent: "accent" },
+  { text: "Mattia è un ragazzo molto preparato e competente. Ha dato ripetizioni di fisica a mio figlio in modo molto professionale ed estremamente proficuo! Lo consiglio vivamente.", author: "Floriana Scalisi", stars: 5, accent: "foreground" },
+  { text: "Mattia è un ragazzo molto preparato, sempre puntuale e disponibile. Lo consiglio vivamente.", author: "Andrea Lovato", stars: 5, accent: "primary" },
+  { text: "Mattia è un ragazzo molto preparato, che ha instaurato con mio figlio un'ottima relazione che facilita lo studio. Quello che apprezzo molto è anche l'essere sempre positivo e capace di infondere fiducia e sicurezza. Assolutamente consigliato!", author: "Elena Rota", stars: 5, accent: "secondary" },
+  { text: "Mattia è molto paziente, molto preparato e affidabile. Lo consiglio a pieni voti.", author: "Romina Fiorentino", stars: 5, accent: "accent" },
 ];
 
 export default function ReviewsSection() {
